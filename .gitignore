@@ -3,12 +3,19 @@
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
 .utmp/
+Library/
 /[Ll]ibrary/
+Temp/
 /[Tt]emp/
 /[Oo]bj/
+Obj/
 /[Bb]uild/
 /[Bb]uilds/
+Build/
+Builds/
+Logs/
 /[Ll]ogs/
+UserSettings/
 /[Uu]ser[Ss]ettings/
 *.log
 
@@ -33,6 +40,8 @@
 
 # Visual Studio cache directory
 .vs/
+.vscode*/
+.idea/
 
 # Gradle cache directory
 .gradle/
@@ -81,7 +90,9 @@ InitTestScene*.unity*
 
 # Addressables default ignores, before user customizations
 /ServerData
+!/[Aa]ssets/**/*.meta
 /[Aa]ssets/StreamingAssets/aa*
+/[Aa]ssets/[Aa]sset[Ss]erver[Vv]7/
 /[Aa]ssets/AddressableAssetsData/link.xml*
 /[Aa]ssets/Addressables_Temp*
 # By default, Addressables content builds will generate addressables_content_state.bin
@@ -97,3 +108,4 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+/[Cc]rashlytics-build.properties
