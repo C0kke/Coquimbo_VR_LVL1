@@ -18,7 +18,12 @@ Logs/
 UserSettings/
 /[Uu]ser[Ss]ettings/
 *.log
-
+/[Aa]ssets/TextMesh Pro/Examples & Extras/
+/[Aa]ssets/Oculus/VR/Editor/Meshes/
+/[Aa]ssets/Oculus/SampleFramework/
+*/Assets/TextMesh Pro/Examples & Extras/
+*/Assets/Oculus/VR/Editor/Meshes/
+*/Assets/Oculus/SampleFramework/
 # By default unity supports Blender asset imports, *.blend1 blender files do not need to be commited to version control.
 *.blend1
 *.blend1.meta
